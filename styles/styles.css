@@ -455,6 +455,99 @@ a.button:focus {
   border-radius: 50%;
 }
 
+.slideOutNav {
+  padding: 35px 50px;
+  border-right: 1px solid #f4fcff;
+  width: 100%;
+  max-width: 506px;
+  height: 100vh;
+  background-color: #084b6d;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: -506px;
+  z-index: 20;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+.slideOutNav .buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.slideOutNav .buttonContainer button {
+  padding: 10px 0 10px 20px;
+}
+
+.slideOutNav {
+  /* previous slideOutNav styles here */
+}
+.slideOutNav .mainMenu a {
+  font-family: "Young Serif";
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: white;
+}
+.slideOutNav .mainMenu a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.slideOutNav .mainMenu a:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  background-color: #084b6d;
+  color: #fff;
+  padding: 90px 0 50px 0;
+}
+footer .footerFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 90px;
+}
+footer .footerFlexContainer h4 {
+  color: #fff;
+}
+footer .footerNav {
+  width: 40%;
+}
+footer .footerNav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerNav nav ul {
+  width: 33%;
+}
+footer .footerNav nav a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+footer .footerNav nav a:hover {
+  color: white;
+}
+footer .footerNav nav a:focus {
+  color: white;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
