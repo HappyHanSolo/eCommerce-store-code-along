@@ -1,3 +1,37 @@
 .mapForm {
-    
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .mapContainer, .formContainer {
+            width: 50%;
+        }
+        iframe {
+            width: 100%;
+        }
+        .formContainer{
+            width: calc(50% - 70px);
+            margin-left: 70px;
+            form {
+                display: flex;
+                flex-direction: column;
+                input, textarea {
+                    padding: 0 0 10px 5px;
+                   border: none;
+                   margin-bottom: 40px;
+                   color: #333;
+                   font-family: $bodyFont;
+                   border-bottom: 1px solid #eee;
+                   &::placeholder {
+                    font-size: 0.8rem;
+                    color: $primary;
+                    opacity: 1;
+                    line-height: 1.2rem;
+                    text-transform: uppercase;
+                   }
+                   }
+                   }
+                }
+            }
+        }
+    }
 }
